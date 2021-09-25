@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="IdeaProyect2021-2022:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/IdeaProyect2021_2022_jar</output-path>
+    <root id="archive" name="IdeaProyect2021-2022.jar">
+      <element id="module-output" name="IdeaProyect2021-2022" />
+    </root>
+  </artifact>
+</component>
