@@ -12,13 +12,14 @@ public class Principal {
          modeloOrdenador.setMarca("Asus");
          modeloOrdenador.setDiscoDuro(3);
          modeloOrdenador.setMemoriaRam(16);
-         modeloOrdenador.setModeloDeProcesador("Ryzen 9");
+         modeloOrdenador.setModeloDeProcesador("Ryzen 9 5950X");
 
         OfertaOrdenador ofertaOrdenador = new OfertaOrdenador();
-        ofertaOrdenador.setPrecioInicial(900);
+        ofertaOrdenador.setPrecioInicial(2000);
         ofertaOrdenador.setDescuento(300);
         ofertaOrdenador.calcularPrecioFinal();
+        ofertaOrdenador.setNuevoModelo(modeloOrdenador);
 
-        System.out.println(modeloOrdenador);
+        System.out.println(ofertaOrdenador);
     }
 }

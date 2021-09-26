@@ -7,7 +7,6 @@ public class ModeloOrdenador {
     private String modeloDeProcesador;
     private int memoriaRam;
     private int discoDuro;
-    private OfertaOrdenador tieneOrdenadorOfertado;
 
     public String getIdentificadorDeModelo() {
         return identificadorDeModelo;
@@ -50,6 +49,10 @@ public class ModeloOrdenador {
     }
 
     public String toString(){
-        return "Identificador de modelo: " + identificadorDeModelo + "\nMarca: " + marca + "\nModelo Del Procesador: " + modeloDeProcesador+ "\nDisco Duro: " + discoDuro + "TB" + "\nMemoria Ram: " + memoriaRam + "GB";
+        return "\nModelo de Ordenador:" + "\n-Identificador de modelo: " +
+                identificadorDeModelo + "\n-Marca: " + marca +
+                "\n-Modelo Del Procesador: " + modeloDeProcesador+
+                "\n-Disco Duro: " + discoDuro + "TB NVME" + "\n-Memoria Ram: " +
+                memoriaRam + "GB DDR4";
     }
 }
