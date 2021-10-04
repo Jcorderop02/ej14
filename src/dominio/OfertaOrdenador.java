@@ -33,6 +33,7 @@ public class OfertaOrdenador {
     public String toString() {
         return tieneOrdenadorOfertado + "\n" + "\nOfertaOrdenador: " +
                 "\n-Precio Inicial: " + precioInicial +"€" +
-                "\n-Descuento: " + descuento +"€" + "\n-Precio final: " + calcularPrecioFinal() +"€";
+                "\n-Descuento: " + descuento +"€" + "\n-Precio final: " +
+                calcularPrecioFinal() +"€";
     }
 }
